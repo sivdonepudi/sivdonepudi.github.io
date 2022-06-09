@@ -550,14 +550,20 @@ a:hover
 {
     margin-bottom: 0;
     padding: 0;
-
-    list-style: none;
+    list-style: square;
 }
 
 #service .services-list li
 {
     font-size: 2.4rem;
     line-height: 3.4em;
+}
+
+#service .services-list li p
+{
+    line-height: 1.5em;
+    margin-bottom: 0.2em;
+    font-size: 1.6rem;
 }
 
 #service .services-list li i
